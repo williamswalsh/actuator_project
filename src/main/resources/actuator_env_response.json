@@ -1,0 +1,454 @@
+// curl http://localhost:8080/actuator/env
+{
+  "activeProfiles": [],
+  "propertySources": [
+    {
+      "name": "server.ports",
+      "properties": {
+        "local.server.port": {
+          "value": 8080
+        }
+      }
+    },
+    {
+      "name": "servletContextInitParams",
+      "properties": {}
+    },
+    {
+      "name": "systemProperties",
+      "properties": {
+        "gopherProxySet": {
+          "value": "false"
+        },
+        "awt.toolkit": {
+          "value": "sun.lwawt.macosx.LWCToolkit"
+        },
+        "java.specification.version": {
+          "value": "11"
+        },
+        "sun.cpu.isalist": {
+          "value": ""
+        },
+        "sun.jnu.encoding": {
+          "value": "UTF-8"
+        },
+        "java.class.path": {
+          "value": "/Users/will/code/spring/actuator_project/target/classes:/Users/will/.m2/repository/org/springframework/boot/spring-boot/2.7.0/spring-boot-2.7.0.jar:/Users/will/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.7.0/spring-boot-autoconfigure-2.7.0.jar:/Users/will/.m2/repository/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar:/Users/will/.m2/repository/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11.jar:/Users/will/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.17.2/log4j-to-slf4j-2.17.2.jar:/Users/will/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar:/Users/will/.m2/repository/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.jar:/Users/will/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar:/Users/will/.m2/repository/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar:/Users/will/.m2/repository/org/springframework/boot/spring-boot-actuator-autoconfigure/2.7.0/spring-boot-actuator-autoconfigure-2.7.0.jar:/Users/will/.m2/repository/org/springframework/boot/spring-boot-actuator/2.7.0/spring-boot-actuator-2.7.0.jar:/Users/will/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar:/Users/will/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar:/Users/will/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar:/Users/will/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.3/jackson-datatype-jsr310-2.13.3.jar:/Users/will/.m2/repository/io/micrometer/micrometer-core/1.9.0/micrometer-core-1.9.0.jar:/Users/will/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar:/Users/will/.m2/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar:/Users/will/.m2/repository/org/springframework/spring-aop/5.3.20/spring-aop-5.3.20.jar:/Users/will/.m2/repository/org/aspectj/aspectjweaver/1.9.7/aspectjweaver-1.9.7.jar:/Users/will/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.3/jackson-datatype-jdk8-2.13.3.jar:/Users/will/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.13.3/jackson-module-parameter-names-2.13.3.jar:/Users/will/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.63/tomcat-embed-core-9.0.63.jar:/Users/will/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/9.0.63/tomcat-embed-el-9.0.63.jar:/Users/will/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.63/tomcat-embed-websocket-9.0.63.jar:/Users/will/.m2/repository/org/springframework/spring-webmvc/5.3.20/spring-webmvc-5.3.20.jar:/Users/will/.m2/repository/org/springframework/spring-context/5.3.20/spring-context-5.3.20.jar:/Users/will/.m2/repository/org/springframework/spring-expression/5.3.20/spring-expression-5.3.20.jar:/Users/will/.m2/repository/org/springframework/spring-web/5.3.19/spring-web-5.3.19.jar:/Users/will/.m2/repository/org/springframework/spring-beans/5.3.20/spring-beans-5.3.20.jar:/Users/will/.m2/repository/org/springframework/spring-core/5.3.20/spring-core-5.3.20.jar:/Users/will/.m2/repository/org/springframework/spring-jcl/5.3.20/spring-jcl-5.3.20.jar:/Users/will/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar"
+        },
+        "java.vm.vendor": {
+          "value": "AdoptOpenJDK"
+        },
+        "sun.arch.data.model": {
+          "value": "64"
+        },
+        "java.vendor.url": {
+          "value": "https://adoptopenjdk.net/"
+        },
+        "catalina.useNaming": {
+          "value": "false"
+        },
+        "user.timezone": {
+          "value": "Europe/Dublin"
+        },
+        "os.name": {
+          "value": "Mac OS X"
+        },
+        "java.vm.specification.version": {
+          "value": "11"
+        },
+        "sun.java.launcher": {
+          "value": "SUN_STANDARD"
+        },
+        "user.country": {
+          "value": "GB"
+        },
+        "sun.boot.library.path": {
+          "value": "/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/lib"
+        },
+        "sun.java.command": {
+          "value": "******"
+        },
+        "http.nonProxyHosts": {
+          "value": "local|*.local|169.254/16|*.169.254/16"
+        },
+        "jdk.debug": {
+          "value": "release"
+        },
+        "sun.cpu.endian": {
+          "value": "little"
+        },
+        "user.home": {
+          "value": "/Users/will"
+        },
+        "user.language": {
+          "value": "en"
+        },
+        "java.specification.vendor": {
+          "value": "Oracle Corporation"
+        },
+        "java.version.date": {
+          "value": "2020-07-14"
+        },
+        "java.home": {
+          "value": "/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home"
+        },
+        "file.separator": {
+          "value": "/"
+        },
+        "java.vm.compressedOopsMode": {
+          "value": "Zero based"
+        },
+        "line.separator": {
+          "value": "\n"
+        },
+        "java.specification.name": {
+          "value": "Java Platform API Specification"
+        },
+        "java.vm.specification.vendor": {
+          "value": "Oracle Corporation"
+        },
+        "FILE_LOG_CHARSET": {
+          "value": "UTF-8"
+        },
+        "java.awt.graphicsenv": {
+          "value": "sun.awt.CGraphicsEnvironment"
+        },
+        "java.awt.headless": {
+          "value": "true"
+        },
+        "sun.management.compiler": {
+          "value": "HotSpot 64-Bit Tiered Compilers"
+        },
+        "ftp.nonProxyHosts": {
+          "value": "local|*.local|169.254/16|*.169.254/16"
+        },
+        "java.runtime.version": {
+          "value": "11.0.8+10"
+        },
+        "user.name": {
+          "value": "will"
+        },
+        "path.separator": {
+          "value": ":"
+        },
+        "os.version": {
+          "value": "10.16"
+        },
+        "java.runtime.name": {
+          "value": "OpenJDK Runtime Environment"
+        },
+        "file.encoding": {
+          "value": "UTF-8"
+        },
+        "spring.beaninfo.ignore": {
+          "value": "true"
+        },
+        "java.vm.name": {
+          "value": "OpenJDK 64-Bit Server VM"
+        },
+        "java.vendor.version": {
+          "value": "AdoptOpenJDK"
+        },
+        "java.vendor.url.bug": {
+          "value": "https://github.com/AdoptOpenJDK/openjdk-support/issues"
+        },
+        "java.io.tmpdir": {
+          "value": "/var/folders/w1/sljbph_j44x9n9xg82k2fc7r0000gn/T/"
+        },
+        "catalina.home": {
+          "value": "/private/var/folders/w1/sljbph_j44x9n9xg82k2fc7r0000gn/T/tomcat.8080.1879636318120394997"
+        },
+        "java.version": {
+          "value": "11.0.8"
+        },
+        "user.dir": {
+          "value": "/Users/will/code/spring/actuator_project"
+        },
+        "os.arch": {
+          "value": "x86_64"
+        },
+        "java.vm.specification.name": {
+          "value": "Java Virtual Machine Specification"
+        },
+        "PID": {
+          "value": "31667"
+        },
+        "java.awt.printerjob": {
+          "value": "sun.lwawt.macosx.CPrinterJob"
+        },
+        "sun.os.patch.level": {
+          "value": "unknown"
+        },
+        "CONSOLE_LOG_CHARSET": {
+          "value": "UTF-8"
+        },
+        "catalina.base": {
+          "value": "/private/var/folders/w1/sljbph_j44x9n9xg82k2fc7r0000gn/T/tomcat.8080.1879636318120394997"
+        },
+        "java.library.path": {
+          "value": "/Users/will/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."
+        },
+        "java.vm.info": {
+          "value": "mixed mode"
+        },
+        "java.vendor": {
+          "value": "AdoptOpenJDK"
+        },
+        "java.vm.version": {
+          "value": "11.0.8+10"
+        },
+        "sun.io.unicode.encoding": {
+          "value": "UnicodeBig"
+        },
+        "java.class.version": {
+          "value": "55.0"
+        },
+        "socksNonProxyHosts": {
+          "value": "local|*.local|169.254/16|*.169.254/16"
+        }
+      }
+    },
+    {
+      "name": "systemEnvironment",
+      "properties": {
+        "PATH": {
+          "value": "/usr/local/opt/node@12/bin:/Users/will/.nvm/versions/node/v16.14.0/bin:/Users/will/.sdkman/candidates/maven/current/bin:/usr/local/anaconda3/condabin:/usr/local/anaconda3/bin:/Users/will/play-2.2.6:/Users/will/activator-1.3.10-minimal/bin:/usr/local/opt/scala@2.11/bin:/usr/local/:/usr/local/bin:/usr/local/sbin:/usr/sbin:/sbin:/Library/TeX/texbin:/Users/will/BitBucket/bash-scripts/kubernetes:/usr/local/mysql/bin:/Users/will/BitBucket/digitary-cloud/scripts:/Users/will/kubectl_v1.6.1:/Users/will/BitBucket/bash-scripts/aws:/usr/local/bin/idea:/Users/will/cobertura/:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/Library/Apple/usr/bin:/Applications/Wireshark.app/Contents/MacOS",
+          "origin": "System Environment Property \"PATH\""
+        },
+        "SDKMAN_VERSION": {
+          "value": "5.11.2+698",
+          "origin": "System Environment Property \"SDKMAN_VERSION\""
+        },
+        "GREP_OPTIONS": {
+          "value": "--color=always",
+          "origin": "System Environment Property \"GREP_OPTIONS\""
+        },
+        "CONDA_PYTHON_EXE": {
+          "value": "/usr/local/anaconda3/bin/python",
+          "origin": "System Environment Property \"CONDA_PYTHON_EXE\""
+        },
+        "__INTELLIJ_COMMAND_HISTFILE__": {
+          "value": "/Users/will/Library/Caches/JetBrains/IdeaIC2021.2/terminal/history/actuator_project-history",
+          "origin": "System Environment Property \"__INTELLIJ_COMMAND_HISTFILE__\""
+        },
+        "MAVEN_HOME": {
+          "value": "/Users/will/.sdkman/candidates/maven/current",
+          "origin": "System Environment Property \"MAVEN_HOME\""
+        },
+        "P9K_TTY": {
+          "value": "old",
+          "origin": "System Environment Property \"P9K_TTY\""
+        },
+        "SDKMAN_DIR": {
+          "value": "/Users/will/.sdkman",
+          "origin": "System Environment Property \"SDKMAN_DIR\""
+        },
+        "LOGNAME": {
+          "value": "will",
+          "origin": "System Environment Property \"LOGNAME\""
+        },
+        "PWD": {
+          "value": "/Users/will/code/spring/actuator_project",
+          "origin": "System Environment Property \"PWD\""
+        },
+        "NVM_CD_FLAGS": {
+          "value": "-q",
+          "origin": "System Environment Property \"NVM_CD_FLAGS\""
+        },
+        "SHELL": {
+          "value": "/bin/zsh",
+          "origin": "System Environment Property \"SHELL\""
+        },
+        "PAGER": {
+          "value": "less",
+          "origin": "System Environment Property \"PAGER\""
+        },
+        "SDKMAN_CANDIDATES_API": {
+          "value": "https://api.sdkman.io/2",
+          "origin": "System Environment Property \"SDKMAN_CANDIDATES_API\""
+        },
+        "OLDPWD": {
+          "value": "/Users/will/code/spring/actuator_project",
+          "origin": "System Environment Property \"OLDPWD\""
+        },
+        "ZSH": {
+          "value": "/Users/will/.oh-my-zsh",
+          "origin": "System Environment Property \"ZSH\""
+        },
+        "TMPDIR": {
+          "value": "/var/folders/w1/sljbph_j44x9n9xg82k2fc7r0000gn/T/",
+          "origin": "System Environment Property \"TMPDIR\""
+        },
+        "LOGIN_SHELL": {
+          "value": "1",
+          "origin": "System Environment Property \"LOGIN_SHELL\""
+        },
+        "P9K_SSH": {
+          "value": "0",
+          "origin": "System Environment Property \"P9K_SSH\""
+        },
+        "DGY_REPO": {
+          "value": "/Users/will/BitBucket/digitary-cloud",
+          "origin": "System Environment Property \"DGY_REPO\""
+        },
+        "XPC_FLAGS": {
+          "value": "0x0",
+          "origin": "System Environment Property \"XPC_FLAGS\""
+        },
+        "TERM_SESSION_ID": {
+          "value": "89dbc01d-854a-4fd6-b1d5-d97e8e32c0e8",
+          "origin": "System Environment Property \"TERM_SESSION_ID\""
+        },
+        "M2_HOME": {
+          "value": "/Users/will/.sdkman/candidates/maven/current/bin/",
+          "origin": "System Environment Property \"M2_HOME\""
+        },
+        "__CF_USER_TEXT_ENCODING": {
+          "value": "0x1F5:0x0:0x2",
+          "origin": "System Environment Property \"__CF_USER_TEXT_ENCODING\""
+        },
+        "LESS": {
+          "value": "-R",
+          "origin": "System Environment Property \"LESS\""
+        },
+        "LC_CTYPE": {
+          "value": "en_GB.UTF-8",
+          "origin": "System Environment Property \"LC_CTYPE\""
+        },
+        "SHLVL": {
+          "value": "1",
+          "origin": "System Environment Property \"SHLVL\""
+        },
+        "DGY_AUTOTEST_REPO": {
+          "value": "/Users/will/BitBucket/digitary-autotest",
+          "origin": "System Environment Property \"DGY_AUTOTEST_REPO\""
+        },
+        "CONDA_EXE": {
+          "value": "/usr/local/anaconda3/bin/conda",
+          "origin": "System Environment Property \"CONDA_EXE\""
+        },
+        "JAVA_HOME": {
+          "value": "/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home",
+          "origin": "System Environment Property \"JAVA_HOME\""
+        },
+        "TERM": {
+          "value": "xterm-256color",
+          "origin": "System Environment Property \"TERM\""
+        },
+        "_P9K_TTY": {
+          "value": "/dev/ttys001",
+          "origin": "System Environment Property \"_P9K_TTY\""
+        },
+        "COMMAND_MODE": {
+          "value": "unix2003",
+          "origin": "System Environment Property \"COMMAND_MODE\""
+        },
+        "JAVA_MAIN_CLASS_31667": {
+          "value": "ie.williamswalsh.resilience4j_circuit_breaker.ActuatorApplication",
+          "origin": "System Environment Property \"JAVA_MAIN_CLASS_31667\""
+        },
+        "NVM_INC": {
+          "value": "/Users/will/.nvm/versions/node/v16.14.0/include/node",
+          "origin": "System Environment Property \"NVM_INC\""
+        },
+        "REPO": {
+          "value": "/Users/will/BitBucket",
+          "origin": "System Environment Property \"REPO\""
+        },
+        "_CE_M": {
+          "value": "",
+          "origin": "System Environment Property \"_CE_M\""
+        },
+        "XPC_SERVICE_NAME": {
+          "value": "0",
+          "origin": "System Environment Property \"XPC_SERVICE_NAME\""
+        },
+        "CONDA_SHLVL": {
+          "value": "0",
+          "origin": "System Environment Property \"CONDA_SHLVL\""
+        },
+        "MAVEN_CMD_LINE_ARGS": {
+          "value": " clean compile spring-boot:run",
+          "origin": "System Environment Property \"MAVEN_CMD_LINE_ARGS\""
+        },
+        "SDKMAN_CANDIDATES_DIR": {
+          "value": "/Users/will/.sdkman/candidates",
+          "origin": "System Environment Property \"SDKMAN_CANDIDATES_DIR\""
+        },
+        "__CFBundleIdentifier": {
+          "value": "com.jetbrains.intellij.ce",
+          "origin": "System Environment Property \"__CFBundleIdentifier\""
+        },
+        "NVM_DIR": {
+          "value": "/Users/will/.nvm",
+          "origin": "System Environment Property \"NVM_DIR\""
+        },
+        "LSCOLORS": {
+          "value": "Gxfxcxdxbxegedabagacad",
+          "origin": "System Environment Property \"LSCOLORS\""
+        },
+        "MAVEN_PROJECTBASEDIR": {
+          "value": "/Users/will/code/spring/actuator_project",
+          "origin": "System Environment Property \"MAVEN_PROJECTBASEDIR\""
+        },
+        "SDKMAN_PLATFORM": {
+          "value": "darwinx64",
+          "origin": "System Environment Property \"SDKMAN_PLATFORM\""
+        },
+        "USER": {
+          "value": "will",
+          "origin": "System Environment Property \"USER\""
+        },
+        "TERMINAL_EMULATOR": {
+          "value": "JetBrains-JediTerm",
+          "origin": "System Environment Property \"TERMINAL_EMULATOR\""
+        },
+        "SSH_AUTH_SOCK": {
+          "value": "/private/tmp/com.apple.launchd.pjcn4w4FWJ/Listeners",
+          "origin": "System Environment Property \"SSH_AUTH_SOCK\""
+        },
+        "_CE_CONDA": {
+          "value": "",
+          "origin": "System Environment Property \"_CE_CONDA\""
+        },
+        "EDITOR": {
+          "value": "/usr/bin/vim",
+          "origin": "System Environment Property \"EDITOR\""
+        },
+        "JAVA_MAIN_CLASS_31419": {
+          "value": "org.codehaus.plexus.classworlds.launcher.Launcher",
+          "origin": "System Environment Property \"JAVA_MAIN_CLASS_31419\""
+        },
+        "NVM_BIN": {
+          "value": "/Users/will/.nvm/versions/node/v16.14.0/bin",
+          "origin": "System Environment Property \"NVM_BIN\""
+        },
+        "HOME": {
+          "value": "/Users/will",
+          "origin": "System Environment Property \"HOME\""
+        }
+      }
+    },
+    {
+      "name": "Config resource 'class path resource [application.yml]' via location 'optional:classpath:/'",
+      "properties": {
+        "management.endpoints.web.exposure.include": {
+          "value": "*",
+          "origin": "class path resource [application.yml] - 5:18"
+        },
+        "management.info.env.enabled": {
+          "value": true,
+          "origin": "class path resource [application.yml] - 8:16"
+        },
+        "info.contact.name": {
+          "value": "William Walsh",
+          "origin": "class path resource [application.yml] - 13:11"
+        },
+        "info.contact.email": {
+          "value": "william.walsh@realcompany.com",
+          "origin": "class path resource [application.yml] - 14:12"
+        }
+      }
+    }
+  ]
+}

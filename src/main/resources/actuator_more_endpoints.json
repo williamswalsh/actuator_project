@@ -1,0 +1,13 @@
+// curl http://localhost:8080/actuator/httptrace
+Trace of last 100 requests.
+- request method
+- request path
+- timestamp
+- request headers
+- response headers
+- time taken to handle request
+
+// curl http://localhost:8080/actuator/heapdump
+
+// curl http://localhost:8080/actuator/threaddump
+What is going on in the application?
