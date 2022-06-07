@@ -1,4 +1,4 @@
-package ie.williamswalsh.resilience4j_circuit_breaker;
+package ie.williamswalsh.actuator_project;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

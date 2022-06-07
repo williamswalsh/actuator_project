@@ -1,4 +1,4 @@
-package ie.williamswalsh.resilience4j_circuit_breaker.web;
+package ie.williamswalsh.actuator_project.web;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
