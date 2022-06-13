@@ -1,4 +1,4 @@
-# Actuator Demo Project
+# Actuator API demonstration project
 Interacting with Spring Cloud Actuator API.
 
 ### API Endpoints:
