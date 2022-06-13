@@ -5,7 +5,7 @@ Interacting with Spring Cloud Actuator API.
 #### General:
 - `curl localhost:9001/actuator` - Get all enabled API endpoints.
 - `curl http://localhost:9001/actuator/startup`
-  - Get details on startup time. \
+  - Get details on startup time.
   - Useful when you need to find what is causing a longer startup time.
 - `curl -X POST http://localhost:9001/actuator/shutdown`
   - This will stop the running spring boot app.
@@ -13,7 +13,7 @@ Interacting with Spring Cloud Actuator API.
 - `curl http://localhost:9001/actuator/info` - Get general info about the application(contact details of developer).
 - `curl http://localhost:9001/actuator/health` - Get the health of the app and of the app dependants. \
  Can get very details information on all dependents(Mongo, Cassandra, Config Server, Eureka, Hystrix, JDBC, JMS, etc.) \
- Can also set flag to show more details in response - _--management.endpoint.health.show-details--_ flag \
+ Can also set flag to show more details in response - **management.endpoint.health.show-details** flag \
  Response State can be:
   - UP
   - DOWN
