@@ -1,0 +1,31 @@
+
+// 1) maven:
+//  <build>
+//		<plugins>
+//			<plugin>
+//				<groupId>org.springframework.boot</groupId>
+//				<artifactId>spring-boot-maven-plugin</artifactId>
+//                <executions>
+//                    <execution>
+//                        <goals>
+//                            <goal>build-info</goal>
+//                        </goals>
+//                    </execution>
+//                </executions>
+//			</plugin>
+//		</plugins>
+//	</build>
+// 2) curl "http://localhost:9001/actuator/info" |jq
+{
+  "contact": {
+    "name": "William Walsh",
+    "email": "william.walsh@realcompany.com"
+  },
+  "build": {
+    "artifact": "actuator-project-artifact",
+    "name": "actuator-project",
+    "time": "2022-06-13T21:13:14.746Z",
+    "version": "0.0.1-SNAPSHOT",
+    "group": "ie.williamswalsh"
+  }
+}

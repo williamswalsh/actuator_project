@@ -1,0 +1,81 @@
+// 1) Maven:
+//            <plugin>
+//                <groupId>pl.project13.maven</groupId>
+//                <artifactId>git-commit-id-plugin</artifactId>
+//            </plugin>
+// 2) management.info.git.mode: "full"
+// 3) curl "http://localhost:9001/actuator/info" |jq
+{
+  "contact": {
+    "name": "William Walsh",
+    "email": "william.walsh@realcompany.com"
+  },
+  "git": {
+    "local": {
+      "branch": {
+        "ahead": "0",
+        "behind": "0"
+      }
+    },
+    "commit": {
+      "id": {
+        "describe-short": "2bd12b1-dirty",
+        "abbrev": "2bd12b1",
+        "full": "2bd12b1cc57b8334255871c180ec4678a77e032f",
+        "describe": "2bd12b1-dirty"
+      },
+      "message": {
+        "short": "Update README doc.",
+        "full": "Update README doc."
+      },
+      "user": {
+        "name": "william walsh",
+        "email": "william.walsh@digitary.net"
+      },
+      "author": {
+        "time": "2022-06-07T10:28:49+0100"
+      },
+      "committer": {
+        "time": "2022-06-07T10:28:49+0100"
+      },
+      "time": "2022-06-07T09:28:49Z"
+    },
+    "branch": "main",
+    "build": {
+      "time": "2022-06-13T21:19:57Z",
+      "version": "0.0.1-SNAPSHOT",
+      "host": "ip-192-168-140-115.eu-west-1.compute.internal",
+      "user": {
+        "name": "william walsh",
+        "email": "william.walsh@digitary.net"
+      }
+    },
+    "tags": "",
+    "total": {
+      "commit": {
+        "count": "3"
+      }
+    },
+    "closest": {
+      "tag": {
+        "commit": {
+          "count": ""
+        },
+        "name": ""
+      }
+    },
+    "remote": {
+      "origin": {
+        "url": "git@github.com:williamswalsh/actuator_project.git"
+      }
+    },
+    "dirty": "true"
+  },
+  "build": {
+    "artifact": "actuator-project-artifact",
+    "name": "actuator-project",
+    "time": "2022-06-13T21:19:52.215Z",
+    "version": "0.0.1-SNAPSHOT",
+    "group": "ie.williamswalsh"
+  }
+}

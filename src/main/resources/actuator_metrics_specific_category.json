@@ -1,0 +1,52 @@
+// curl http://localhost:9001/actuator/metrics/http.server.requests | jq
+{
+  "name": "http.server.requests",
+  "description": null,
+  "baseUnit": "seconds",
+  "measurements": [
+    {
+      "statistic": "COUNT",
+      "value": 1
+    },
+    {
+      "statistic": "TOTAL_TIME",
+      "value": 0.010905129
+    },
+    {
+      "statistic": "MAX",
+      "value": 0.010905129
+    }
+  ],
+  "availableTags": [
+    {
+      "tag": "exception",
+      "values": [
+        "None"
+      ]
+    },
+    {
+      "tag": "method",
+      "values": [
+        "GET"
+      ]
+    },
+    {
+      "tag": "uri",
+      "values": [
+        "/car"
+      ]
+    },
+    {
+      "tag": "outcome",
+      "values": [
+        "SUCCESS"
+      ]
+    },
+    {
+      "tag": "status",
+      "values": [
+        "200"
+      ]
+    }
+  ]
+}

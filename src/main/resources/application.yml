@@ -1,9 +1,21 @@
+
 management:
+  server:
+    port: 9001
+    address: 127.0.0.1
+  endpoint:
+    shutdown:
+      enabled: true # This enables the shutdown endpoint to stop the application
+    env:
+      post:
+        enable: true
   endpoints:
     web:
       exposure:
-        include: '*'
+        include: "*"
   info:
+    git:
+      mode: "full"
     env:
       enabled: true # This enables the info endpoint reading from env
 
@@ -12,3 +24,7 @@ info:
   contact:
     name: William Walsh
     email: william.walsh@realcompany.com
+
+my:
+  sample:
+    config: 55
