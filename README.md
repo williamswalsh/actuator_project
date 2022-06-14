@@ -46,7 +46,6 @@ Interacting with Spring Cloud Actuator API.
          -d '{"configuredLevel": "DEBUG"}' \
          -H "Content-type: application/json"  
     ```
-    
 
 #### Troubleshooting
 - `curl http://localhost:9001/actuator/heapdump` - Get a dump of the heap memory.
@@ -59,6 +58,7 @@ Interacting with Spring Cloud Actuator API.
     - request headers
     - response headers
     - time taken to handle request
+
 #### Metrics
 - `curl http://localhost:9001/actuator/metrics`
   - Gets a list of all available metric categories. There are a lot.
@@ -70,4 +70,4 @@ Interacting with Spring Cloud Actuator API.
   ```
   - Gets the metrics for GET method calls to /** URI in the "http.server.requests" category.
 
-
+    

@@ -5,6 +5,8 @@
 //            </plugin>
 // 2) management.info.git.mode: "full"
 // 3) curl "http://localhost:9001/actuator/info" |jq
+
+// NOTE: dirty flag - this means that there were uncommited changes in the build directory, when the project was built.
 {
   "contact": {
     "name": "William Walsh",
