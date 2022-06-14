@@ -1,2 +1,77 @@
-// http://localhost:8080/actuator/info
-{}
+//curl \
+// 'http://localhost:9001/actuator/info' \
+// --header 'Authorization: Basic dm9uX2Zyb3RoOm5hemFyZQ==' | jq
+{
+  "contact": {
+    "name": "William Walsh",
+    "email": "william.walsh@realcompany.com"
+  },
+  "git": {
+    "local": {
+      "branch": {
+        "ahead": "0",
+        "behind": "0"
+      }
+    },
+    "commit": {
+      "id": {
+        "describe-short": "5ba270c-dirty",
+        "abbrev": "5ba270c",
+        "full": "5ba270c1b054b4c45a35b3c5dc140909ca338576",
+        "describe": "5ba270c-dirty"
+      },
+      "message": {
+        "short": "Improve README and add simple actuator config + git details info in /info endpoint.",
+        "full": "Improve README and add simple actuator config + git details info in /info endpoint."
+      },
+      "user": {
+        "name": "william walsh",
+        "email": "william.walsh@digitary.net"
+      },
+      "author": {
+        "time": "2022-06-14T10:41:34+0100"
+      },
+      "committer": {
+        "time": "2022-06-14T10:41:34+0100"
+      },
+      "time": "2022-06-14T09:41:34Z"
+    },
+    "branch": "main",
+    "build": {
+      "time": "2022-06-14T22:02:43Z",
+      "version": "0.0.1-SNAPSHOT",
+      "host": "wills-MacBook-Pro.local",
+      "user": {
+        "name": "william walsh",
+        "email": "william.walsh@digitary.net"
+      }
+    },
+    "tags": "",
+    "total": {
+      "commit": {
+        "count": "7"
+      }
+    },
+    "closest": {
+      "tag": {
+        "commit": {
+          "count": ""
+        },
+        "name": ""
+      }
+    },
+    "remote": {
+      "origin": {
+        "url": "git@github.com:williamswalsh/actuator_project.git"
+      }
+    },
+    "dirty": "true"
+  },
+  "build": {
+    "artifact": "actuator-project-artifact",
+    "name": "actuator-project",
+    "time": "2022-06-14T22:02:36.627Z",
+    "version": "0.0.1-SNAPSHOT",
+    "group": "ie.williamswalsh"
+  }
+}
