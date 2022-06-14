@@ -1,9 +1,10 @@
-#spring:
-#  security:
-#    user:
-#      name: user
-#      password: password
-
+spring:
+  application:
+    name: actuator-service
+#  boot:
+#    admin:
+#      client:
+#        url: http://localhost:8081
 
 management:
   server:
@@ -24,6 +25,9 @@ management:
       mode: "full"
     env:
       enabled: true # This enables the info endpoint reading from env
+
+
+#      password: password
 
 # Adding information ot the actuator/info response body
 info:
